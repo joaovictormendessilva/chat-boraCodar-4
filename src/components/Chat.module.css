@@ -1,0 +1,82 @@
+.Chat .date{
+    text-align: center;
+    font-size: 0.75rem;
+    margin-top: 0.875rem;
+}
+
+.Chat .personMessage,
+.Chat .myMessage{
+    margin-top: 1.875rem;
+}
+
+.Chat .nameAndHourMessage{
+    line-height: 0.875rem;
+    margin-bottom: 0.625rem;
+}
+
+.Chat .nameAndHourMessage h4{
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.Chat .personMessage .personMessageBox{
+    background-color: #633BBC;
+    padding: 0.875rem;
+    width: max-content;
+    max-width: 50%;
+    border-radius: 0 8px 8px 8px;
+
+}
+
+.Chat .personMessage .personMessageBox span{
+    background-color: #633BBC;
+    overflow-wrap: break-word;
+}
+
+.Chat .myMessage{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.Chat .myMessageBox{
+    background-color: #07847E;
+    padding: 0.875rem;
+    width: max-content;
+    max-width: 50%;
+    border-radius: 8px 8px 0px 8px;
+}
+
+.Chat .myMessageBox span{
+    background-color: #07847E;
+    overflow-wrap: break-word;
+}
+
+.sendBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0.875rem 1.5rem;
+    background-color: #282843;
+    border-radius: 999px;
+    margin-top: 3.375rem;
+    gap: 1rem;
+}
+
+.sendBox input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.sendBox button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.sendBox button img{
+    background: none;
+}
