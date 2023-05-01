@@ -12,7 +12,10 @@ export function Header(){
                 </div>
                 <div className={styles.nameAndStatus}>
                     <h2 className={styles.personName}>Cecilia Sassaki</h2>
-                    <span className={styles.status}>Online</span>
+                    <span className={styles.status}>
+                        <div className={styles.elipse}></div>
+                        Online
+                    </span>
                 </div>
             </div>
 

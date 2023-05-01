@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 .avatarAndStatus{
@@ -22,6 +24,16 @@
 .avatarAndStatus .status{
     color: #00B37E;
     font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.elipse{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #00B37E;
 }
 
 .closeButton button{
