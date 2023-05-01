@@ -1,0 +1,35 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatarAndStatus{
+    display: flex;
+    gap: 1rem;
+}
+
+.avatarAndStatus .nameAndStatus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.avatarAndStatus .personName{
+    font-size: 1rem;
+}
+
+.avatarAndStatus .status{
+    color: #00B37E;
+    font-size: 0.75rem;
+}
+
+.closeButton button{
+    border: none;
+    cursor: pointer;
+}
+
+.closeButton img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
