@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import styles from './Chat.module.css';
 import { MyMessage } from './MyMessage';
-import { PersonMessage } from './personMessage';
+import { PersonMessage } from './PersonMessage';
 
 import sendIcon from '../assets/sendIcon.png';
 
