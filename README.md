@@ -1,6 +1,7 @@
 <h1>#boraCodar um chat</h1>
 <h3>Desenvolvido seguindo o layout <a href="https://www.figma.com/community/file/1200070743637495660">disponibilizado no Figma</a></h3>
 
+Projeto online: <a href="https://chat-bora-codar-4.vercel.app/">Clique aqui e veja</a>
 
 <h4>Techs</h4>
 <li>React.js</li>
